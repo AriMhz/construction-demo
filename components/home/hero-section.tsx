@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { useEffect, useState } from "react"
+import { getAssetPath } from "@/lib/utils/path"
+
 
 export function HeroSection() {
   const [mounted, setMounted] = useState(false)
@@ -29,7 +31,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('/hero-construction.jpg')",
+          backgroundImage: `url('${getAssetPath('/hero-construction.jpg')}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

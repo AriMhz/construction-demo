@@ -1,7 +1,9 @@
 {
   "version": 1,
   "config": {
-    "env": {},
+    "env": {
+      "NEXT_PUBLIC_BASE_PATH": "/construction-demo"
+    },
     "webpack": null,
     "typescript": {
       "ignoreBuildErrors": true

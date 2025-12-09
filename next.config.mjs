@@ -2,6 +2,9 @@
 const nextConfig = {
   basePath: '/construction-demo',
   assetPrefix: '/construction-demo/',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '/construction-demo',
+  },
   typescript: {
     ignoreBuildErrors: true,
   },

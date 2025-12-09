@@ -1,5 +1,7 @@
 /* Nepal-focused pricing and configuration constants */
 
+import { getAssetPath } from "./utils/path"
+
 export const NEPAL_LOCATIONS = [
   { name: "Kathmandu", multiplier: 1.1 },
   { name: "Pokhara", multiplier: 1.05 },
@@ -38,7 +40,7 @@ export const FEATURED_PROJECTS = [
     summary: "Full-scale interior and exterior redesign, seismic retrofit, water-proofing, modern Façade.",
     tags: ["Luxury", "Residential", "Retrofitting"],
     imageCount: 8,
-    image: "/projects/pokhara-lakeside.jpg",
+    image: getAssetPath("/projects/pokhara-lakeside.jpg"),
   },
   {
     id: "kathmandu-tower",
@@ -49,7 +51,7 @@ export const FEATURED_PROJECTS = [
     summary: "Structure & MEP coordination, façade glazing, elevator installation.",
     tags: ["Commercial", "High-Rise", "MEP"],
     imageCount: 6,
-    image: "/projects/kathmandu-tower.jpg",
+    image: getAssetPath("/projects/kathmandu-tower.jpg"),
   },
   {
     id: "chitwan-school",
@@ -60,7 +62,7 @@ export const FEATURED_PROJECTS = [
     summary: "4 classrooms, solar-ready roof, playground, local-materials-first approach.",
     tags: ["Social", "Earthquake Resilient", "Community"],
     imageCount: 5,
-    image: "/projects/chitwan-school.jpg",
+    image: getAssetPath("/projects/chitwan-school.jpg"),
   },
   {
     id: "lumbini-resort",
@@ -71,6 +73,6 @@ export const FEATURED_PROJECTS = [
     summary: "Landscape lighting, pool retiling, accessibility upgrades, eco-friendly HVAC.",
     tags: ["Hospitality", "Renovation", "Eco"],
     imageCount: 7,
-    image: "/projects/lumbini-resort.jpg",
+    image: getAssetPath("/projects/lumbini-resort.jpg"),
   },
 ] as const
