@@ -15,7 +15,6 @@ export const metadata: Metadata = {
   title: "HIMALAYA BUILD CO. | Premium Construction & Projects in Nepal",
   description:
     "Expert construction services and completed projects across Nepal. Premium residential, commercial, and institutional builds with modern techniques.",
-  generator: "v0.app",
   applicationName: "HIMALAYA BUILD CO.",
   keywords: ["construction", "nepal", "architecture", "projects", "building", "residential", "commercial"],
   creator: "HIMALAYA BUILD CO.",

@@ -2,6 +2,9 @@ import type { MetadataRoute } from "next"
 import { FEATURED_PROJECTS } from "@/lib/constants"
 import { generateServices } from "@/lib/services-data"
 
+export const dynamic = "force-static"
+
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://himalaya-build.com"
 

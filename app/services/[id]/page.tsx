@@ -7,6 +7,14 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { generateServices } from "@/lib/services-data"
 
+export function generateStaticParams() {
+  const services = generateServices()
+  return services.map((service) => ({
+    id: service.id,
+  }))
+}
+
+
 export default function ServiceDetailPage({ params }: { params: { id: string } }) {
   const services = generateServices()
   const service = services.find((s) => s.id === params.id)
@@ -37,13 +45,12 @@ export default function ServiceDetailPage({ params }: { params: { id: string } }
                 {service.badges.map((badge) => (
                   <span
                     key={badge}
-                    className={`inline-flex px-3 py-1 rounded-full text-sm font-bold ${
-                      badge === "HOT DEAL"
+                    className={`inline-flex px-3 py-1 rounded-full text-sm font-bold ${badge === "HOT DEAL"
                         ? "bg-accent text-accent-foreground animate-pulse"
                         : badge === "Popular"
                           ? "bg-primary/20 text-primary"
                           : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
-                    }`}
+                      }`}
                   >
                     {badge}
                   </span>

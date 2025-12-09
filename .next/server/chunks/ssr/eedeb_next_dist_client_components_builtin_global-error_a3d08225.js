@@ -1,0 +1,3 @@
+module.exports=[33973,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(44847);a.n(d("[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/node_modules/.pnpm/next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},48858,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(44847);a.n(d("[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/node_modules/.pnpm/next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/components/builtin/global-error.js"))},39257,a=>{"use strict";a.i(33973);var b=a.i(48858);a.n(b)}];
+
+//# sourceMappingURL=eedeb_next_dist_client_components_builtin_global-error_a3d08225.js.map

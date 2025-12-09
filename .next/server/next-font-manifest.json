@@ -1,0 +1,51 @@
+{
+  "app": {
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/_not-found/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/about/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/admin/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/checkout/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/contact/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/projects/[id]/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/projects/new/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/projects/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/services/[id]/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ],
+    "[project]/Downloads/himalaya-build-co-website/himalaya-build-co-website/app/services/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/248e1dc0efc99276-s.p.8a6b2436.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

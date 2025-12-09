@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/admin/page": "/admin",
+  "/checkout/page": "/checkout",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/projects/[id]/page": "/projects/[id]",
+  "/projects/new/page": "/projects/new",
+  "/projects/page": "/projects",
+  "/robots.txt/route": "/robots.txt",
+  "/services/[id]/page": "/services/[id]",
+  "/services/page": "/services",
+  "/sitemap.xml/route": "/sitemap.xml"
+}
